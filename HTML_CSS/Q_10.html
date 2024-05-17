@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        .container {
+            height: 950px;
+            width: 850px;
+            border: 2px solid black;
+            margin-left: 230px;
+        }
+
+        .header {
+            height: 35px;
+            width: 810px;
+            margin-left: 20px;
+            margin-top: 10px;
+            background-image: linear-gradient(rgb(175, 255, 228), rgb(241, 156, 241), rgb(164, 164, 255), rgb(94, 94, 248));
+        }
+
+        .headercontent {
+            text-align: center;
+            font-size: x-large;
+            color: darkred;
+            font-weight: bold;
+        }
+
+        .content {
+            height: 880px;
+            width: 810px;
+            margin-left: 20px;
+            margin-top: 10px;
+            background-color: rgb(175, 255, 228);
+        }
+
+        p {
+            font-size: medium;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        #submit_btn {
+            background-color: rgb(77, 77, 255);
+            font-weight: bold;
+            color: white;
+            height: 30px;
+            width: 80px;
+            font-size: large;
+            margin-left: 300px;
+        }
+
+        #reset_btn {
+            background-color: rgb(77, 77, 255);
+            font-weight: bold;
+            color: white;
+            height: 30px;
+            width: 80px;
+            font-size: large;
+            margin-left: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="headercontent">Individual Registration</div>
+        </div>
+
+        <div class="content">
+            <br>
+            <div>
+                <h3 style="color: darkred;">User Particulars</h3>
+                <div>
+                    <label style="margin-left: 299px;">Login ID &nbsp;</label>
+                    <input type="text"><br><br>
+                    <label style="margin-left: 297px;">Password &nbsp;</label>
+                    <input type="password"><br><br>
+                    <label style="margin-left: 240px;">Confirm Password &nbsp;</label>
+                    <input type="password">
+                </div>
+            </div>
+
+            <br><br>
+            <div>
+                <h3 style="color: darkred;">Personal Particulars</h3>
+                <div>
+                    <label style="margin-left: 90px;">solutation &nbsp;</label>
+                    <select>
+                        <option>select</option>
+                        <option>Mr.</option>
+                        <option>Mrs.</option>
+                        <option>Miss</option>
+                    </select>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <label style="margin-left: 180px;">First Name &nbsp;</label>
+                    <input type="text"><br><br>
+                    <label style="margin-left: 65px;">Middle Name &nbsp;</label>
+                    <input type="text">
+                    &nbsp;&nbsp;
+                    <label style="margin-left: 80px;">Last Name &nbsp;</label>
+                    <input type="text"><br><br>
+                    <label style="margin-left: 55px;">Resident Status &nbsp;</label>
+                    <select>
+                        <option>select</option>
+                        <option>1</option>
+                    </select>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <label style="margin-left: 142px;">Country &nbsp;</label>
+                    <select>
+                        <option>select</option>
+                        <option>India</option>
+                    </select><br><br>
+                    <label style="margin-left: 96px;">Email-Id &nbsp;</label>
+                    <input type="text">
+                    <label style="margin-left: 60px;">Mobile Number &nbsp;</label>
+                    <input type="text">
+                </div>
+            </div>
+
+            <br><br>
+            <div>
+                <h3 style="color: darkred;">Account Particulars</h3>
+                <div>
+                    <label style="margin-left: 20px;">15 Digit Account No &nbsp;</label>
+                    <input type="text">
+                    <label style="margin-left: 89px;">Nick Name &nbsp;</label>
+                    <input type="text"><br><br>
+                    <label style="margin-left: 64px;">Fund Transfer &nbsp;</label>
+                    <select>
+                        <option>select</option>
+                        <option>Yes</option>
+                        <option>No</option>
+                    </select>
+                </div>
+            </div>
+
+            <br><br>
+            <div>
+                <h3 style="color: darkred;">DECLARATION</h3>
+                <div style="margin-left: 10px;">
+                    <p>I have read, understood and hereby agree to the terms and conditions in respect of all products
+                        and channels.<br>
+                        I understand that any changes in the terms and conditions applicable to this relationship would
+                        be made available to me on request at any IOB branches. I Confirm that all Accounts under this
+                        login name are operated singly and in case of joint account operated by either or
+                        survivor/anyone or survivor(s) under his/her joint name respectively. I do hereby declare that
+                        information furnished in this form is true to the best of my knowledge and belief. </p>
+                </div>
+            </div>
+
+            <br><br>
+            <div>
+                <input type="submit" value="Submit" id="submit_btn">
+                <input type="reset" value="Reset" id="reset_btn">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

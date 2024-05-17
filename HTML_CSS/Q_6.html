@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .firstDiv {
+            background-color: limegreen;
+            width: 55%;
+            height: 70%;
+            text-align: center;
+        }
+
+        .secondDiv{
+            border: 2px solid black;
+            width: 54%;
+            height: 190px;
+        }
+
+        .mainTable{
+            border-collapse: collapse;
+            border-color: white;
+            margin-left: 4%;
+            color: white;
+        }
+
+        .firstbox{
+            background-color: crimson;
+        }
+
+        .secondbox{
+            background-color: rgb(43, 43, 43);
+        }
+
+        .bcell{
+            background-color: white;
+        }
+
+        .secondTable{
+            background-color: lightgray;
+            border-style: inset;
+            margin-left: 3%;
+            width: 95%;
+            text-align: center;
+        }
+
+        p{
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="firstDiv">
+        <h1>European Roulette</h1>
+        <table cellpadding="16px" class="mainTable" border="2px">
+            <tr>
+                <td rowspan="5">0</td>
+                <td class="firstbox">3</td>
+                <td class="secondbox">6</td>
+                <td class="firstbox">9</td>
+                <td class="firstbox">12</td>
+                <td class="secondbox">15</td>
+                <td class="firstbox">18</td>
+                <td class="firstbox">21</td>
+                <td class="secondbox">24</td>
+                <td class="firstbox">27</td>
+                <td class="firstbox">30</td>
+                <td class="secondbox">33</td>
+                <td class="firstbox">36</td>
+                <td>2to1</td>
+            </tr>
+
+            <tr>                
+                <td class="secondbox">2</td>
+                <td class="firstbox">5</td>
+                <td class="secondbox">8</td>
+                <td class="secondbox">11</td>
+                <td class="firstbox">14</td>
+                <td class="secondbox">17</td>
+                <td class="secondbox">20</td>
+                <td class="firstbox">23</td>
+                <td class="secondbox">26</td>
+                <td class="secondbox">29</td>
+                <td class="firstbox">32</td>
+                <td class="secondbox">35</td>
+                <td>2to1</td>
+            </tr>
+
+            <tr>                
+                <td class="firstbox">1</td>
+                <td class="secondbox">4</td>
+                <td class="firstbox">7</td>
+                <td class="secondbox">10</td>
+                <td class="secondbox">13</td>
+                <td class="firstbox">16</td>
+                <td class="firstbox">19</td>
+                <td class="secondbox">22</td>
+                <td class="firstbox">25</td>
+                <td class="secondbox">28</td>
+                <td class="secondbox">31</td>
+                <td class="firstbox">34</td>
+                <td>2to1</td>
+            </tr>
+
+            <tr>
+                <td colspan="4">1st12</td>
+                <td colspan="4">2nd12</td>
+                <td colspan="4">3rd12</td>
+                <td rowspan="2"></td>
+            </tr>
+
+            <tr>
+                <td colspan="2">1to18</td>
+                <td colspan="2">EVEN</td>
+                <td colspan="2" class="firstbox"></td>
+                <td colspan="2" class="secondbox"></td>
+                <td colspan="2">OOD</td>
+                <td colspan="2">19to36</td>
+            </tr>
+        </table>
+        <br><br>
+    </div>
+    <div class="secondDiv">
+        <p>CSS3 Browser Support (latest browser versions)</p>
+        <table border="2px" cellpadding="5px" class="secondTable">
+            <tr class="bcell">
+                <th>CSS Property</th>
+                <th>Internet Explorer</th>
+                <th>FireFox</th>
+                <th>Chrome</th>
+                <th>Safari</th>
+                <th>Opera</th>
+            </tr>
+
+            <tr class="bcell">
+                <td><b>Border Radius</b></td>
+                <td>YES</td>
+                <td>YES</td>
+                <td>YES</td>
+                <td>YES</td>
+                <td>YES</td>
+            </tr>
+
+            <tr class="bcell">
+                <td><b>Box Shadow</b></td>
+                <td>YES</td>
+                <td>YES</td>
+                <td>YES</td>
+                <td>YES</td>
+                <td>YES</td>
+            </tr>
+
+            <tr class="bcell">
+                <td><b>CSS Animations</b></td>
+                <td>NO</td>
+                <td>NO</td>
+                <td>YES</td>
+                <td>YES</td>
+                <td>NO</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

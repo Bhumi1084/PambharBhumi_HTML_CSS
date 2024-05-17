@@ -1,0 +1,10 @@
+Q-8 : In how many ways can a CSS be integrated as a web page?
+
+=> Inline Styles :
+	-> CSS styles can be applied directly within the HTML elements using the style attribute.
+	
+=> Internal/Embedded Styles :
+	-> CSS can be placed directly within the HTML file using the <style> tag in the head section.
+	
+=> External Styles :
+	-> CSS can be stored in a separate file (e.g., styles.css) and linked to the HTML file using the <link> tag.
